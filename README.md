@@ -19,7 +19,7 @@ assignment may, for the purpose of assessing this assignment:
 
 ## REPO Description
 
-This course repository provides the work completed and assignments given during _Intro to Programming (C++)_, taught by Professor XXX. It includes essential information about the course, such as its description, objectives, and required materials. Please read through this document to familiarize yourself with the course content and expectations.
+This course repository provides the work completed and assignments given during _Intro to Programming (C++)_, taught by Professor Alexandre T. Nogueira. It includes essential information about the course, such as its description, objectives, and required materials. Please read through this document to familiarize yourself with the course content and expectations.
 
 ## Course Description
 
