@@ -1,25 +1,40 @@
 #include <iostream>
-#include <iomanip>
-#include <algorithm>
 
 using namespace std;
+
 int main() {
-
-    int a,b,c;
+    int a, b, c;
     cin >> a >> b >> c;
-    int values[3] = {a,b,c};
 
-    sort(values, values + 3);
 
-    for (int value : values) {
-        cout << value << endl;
+    int smallest = a;
+    if (b < smallest) {
+        smallest = b;
     }
+    if (c < smallest) {
+        smallest = c;
+    }
+
+
+    int largest = a;
+    if (b > largest) {
+        largest = b;
+    }
+    if (c > largest) {
+        largest = c;
+    }
+
+    int middle = a;
+    if (a != smallest && a != largest) {
+        middle = a;
+    } else if (b != smallest && b != largest) {
+        middle = b;
+    } else {
+        middle = c;
+    }
+
+    cout << smallest << endl << middle << endl << largest << endl;
     cout << endl;
-
-    cout << a << endl;
-    cout << b << endl;
-    cout << c << endl;
-
-
+    cout << a << endl << b << endl << c << endl;
     return 0;
 }
